@@ -1,0 +1,48 @@
+{
+	"name": "language-antlers",
+	"displayName": "Statamic Antlers Templates",
+	"description": "Antlers Template Language Syntax Highlighter",
+	"version": "0.0.1",
+	"icon": "icon.png",
+	"publisher": "ahdesign",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"keywords": [
+		"statamic",
+		"antlers",
+		"template"
+	],
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "antlers",
+				"aliases": [
+					"Statamic Antlers",
+					"Antlers"
+				],
+				"extensions": [
+					".html",
+					".htm",
+					".xhtml"
+				],
+				"configuration": "./antlers.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "antlers",
+				"scopeName": "text.html.statamic",
+				"path": "./syntaxes/antlers.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "24891be9-dd0f-4757-b3ed-37b7d841e0cf",
+		"publisherDisplayName": "ahdesign",
+		"publisherId": "807e9432-95bb-45bc-953b-9da19405f5c3"
+	}
+}
