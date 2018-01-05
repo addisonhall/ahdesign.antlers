@@ -10,7 +10,7 @@ What is Statamic?
 
 Statamic (http://statamic.com) is a no-database, flat-file content management system that is far more capable than you would ever expect it to be. It's crazy fun to develop with as well.
 
-If you use a beautyfier in VSC
+If you use a beautifier in VSC
 ------------------------------
 
 Update your VSC settings, p.e.:
