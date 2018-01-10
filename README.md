@@ -10,6 +10,15 @@ What is Statamic?
 
 Statamic (http://statamic.com) is a no-database, flat-file content management system that is far more capable than you would ever expect it to be. It's crazy fun to develop with as well.
 
+How to use
+----------
+
+This extension now essentially replaces the HTML syntax so that Antlers will take advantage of HTML intellisense and Emmet, so I recommend only enabling it for Statamic projects. You can do this via the "Enable (Workspace)" option.
+
+![Enable (Workspace)](enable.gif)
+
+Note that you won't have to select Antlers as your language -- if enabled, it will automatically kick in for any .html, .htm, or .xhtml file.
+
 If you use a beautifier in VSC
 ------------------------------
 
