@@ -2,7 +2,7 @@
     "name": "language-antlers",
     "displayName": "Statamic Antlers Templates",
     "description": "Antlers Template Language Syntax Highlighter",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "icon": "icon.png",
     "publisher": "ahdesign",
     "engines": {
